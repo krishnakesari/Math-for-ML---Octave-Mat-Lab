@@ -1,1 +1,1 @@
-# Math-for-ML---Octave-Mat-Lab
+# Math for ML (Octave/MatLab)
