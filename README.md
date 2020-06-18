@@ -1,1 +1,4 @@
-# Math for ML (Octave/MatLab)
+# Stanford Machine Learning
+# Language used: OCTAVE/MATLAB
+
+## 
