@@ -3,5 +3,8 @@
 
 1. Linear Regression
 2. Logistic Regression
-3. Neural Network Learning
+3. Multi-class classification
+4. Neural Network Learning
+5. Regularized Linear Regression and Variance vs. Bias
+
 
