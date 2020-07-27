@@ -6,5 +6,6 @@
 3. Multi-class classification
 4. Neural Network Learning
 5. Regularized Linear Regression and Variance vs. Bias
+6. Support Vector Machines
 
 
