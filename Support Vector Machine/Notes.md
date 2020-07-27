@@ -28,6 +28,40 @@ u transpose v = ?
 p = length of projection of vector v onto vector u 
 u transpose v = p * ||u|| = u1 * v1 + u2 * v2
 
+# Kernel I
+## Non-linear decision boundary
+Given x, compute new features depending on proximity to landmarks l(1), l(2), l(3)....
+1. Gaussian Kernel (Similarity function) => k(x, l(1))
+f1 = similarity (x, l(1))
+f2 = similarity (x, l(2))
+
+kernels and similarity:
+If x ~ l(1): f1 ~ 1
+If x is far from l(1): f1 ~ 0  
+
+Contour Plot will have x1 and x2 on horizontal access and f1 on y-axis 
+
+# Kernel II
+Choosing landmarks
+SVM with Kernels 
+x(i) ==> f1(i) ........... fm(i) = sim(x(i), l(1)) ........... sim(x(i), l(m))
+
+## How to choose SVm parameters
+C (= 1/lambda) 
+Large C : Lower bias, high variance (small lambda) - over fitting
+Small C : Higher Bias, low variance (large Lambda) - under fitting
+
+Sigma square: 
+Large: High bias, lower variance  (Gaussian Kernel vary more smoothly)
+Small: Lower bias, high variance (Gaussian Kernel vary abruptly)
+
+
+
+
+
+
+
+
 
 
 
