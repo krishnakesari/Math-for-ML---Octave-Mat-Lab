@@ -46,7 +46,7 @@ Choosing landmarks
 SVM with Kernels 
 x(i) ==> f1(i) ........... fm(i) = sim(x(i), l(1)) ........... sim(x(i), l(m))
 
-## How to choose SVm parameters
+## How to choose SVM parameters
 C (= 1/lambda) 
 Large C : Lower bias, high variance (small lambda) - over fitting
 Small C : Higher Bias, low variance (large Lambda) - under fitting
@@ -56,6 +56,38 @@ Large: High bias, lower variance  (Gaussian Kernel vary more smoothly)
 Small: Lower bias, high variance (Gaussian Kernel vary abruptly)
 
 
+# using an SVM in Practice
+
+## use liblinear, libsvm packages to solve for parameters theta.
+Need to specify:
+choice of parameters C
+Choice of Kernel (Similarity function)
+
+1. No kernel ("Linear kernel") to predict "y = 1" if theta transpose x > = 0 
+    Use when n is large and m is small
+
+2. Gaussian kernel: The best kernel
+Need to choose sigma square 
+n is small and m is large
+Note: Perform feature scaling before using Gaussian Kernel
+||v||^2 = ||x-l||^2
+
+3. Polynomial Kernel (off-the-shelf kernel)
+
+4. Other kernels:
+Note: 
+i. Not all similarity functions make valid kernels
+ii. Need to satisfy "Mercer's Theorem" to make sure SVM packages optimizations run correctly and do not diverge
+
+
+
+## Multi-class classification 
+ Use one-vs-all method 
+
+## Logistic regression vs SVM
+if n is large (relative to m) - use logistic regression or SVM without a kernel ("Linear Kernel") (n = 10000, m = 10 - 1000)
+If n is small, m is intermediate - use SVM with Gaussian Kernel (n = 1- 1000, m = 10 - 10000)
+If n is small, m is large - manually create features / use logistic regression or SVM without a kernel  (n = 1 - 1000, m = 50000 + )
 
 
 
