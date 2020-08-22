@@ -1,6 +1,6 @@
 # Stanford Machine Learning
 ## Language used: 
-OCTAVE/MATLAB 
+MATLAB/OCTAVE
 
 [<img align=left alt="Matlab" width="100px" src= "https://www.eletimes.com/wp-content/uploads/2018/03/mathworks-logo.jpg" />](https://www.mathworks.com/)
 [<img alight=left alt="Octave" width="45px" src= "https://www.gnu.org/software/octave/img/octave-logo.png" />](https://www.gnu.org/software/octave/)
