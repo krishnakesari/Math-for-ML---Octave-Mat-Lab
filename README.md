@@ -1,5 +1,7 @@
 # Stanford Machine Learning
-## Language used: OCTAVE/MATLAB [<img alight=left alt="Matlab" width="40px" src= "https://www.gnu.org/software/octave/img/octave-logo.png"/>](https://www.gnu.org/software/octave/)
+## Language used: 
+OCTAVE/MATLAB [<img alight=left alt="Octave" width="40px" src= "https://www.gnu.org/software/octave/img/octave-logo.png"/>](https://www.gnu.org/software/octave/)
+[<img align=left alt="Matlab" width="40px" src= "https://www.eletimes.com/wp-content/uploads/2018/03/mathworks-logo.jpg"/>](https://www.mathworks.com/)
 
 1. Linear Regression
 2. Logistic Regression
