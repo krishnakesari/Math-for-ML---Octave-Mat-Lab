@@ -52,9 +52,27 @@ Notes:
    b. Collect/label it yourself
    c. "Crowd source" data (Eg: Amazon Mechanical Turk System) (have issues with labeller reliability)
 
+# Ceiling Analysis 
+## Estimating errors due to each component
+1. What parts of the pipeline should you spend the most time trying to improve ? 
+2. Which part of process needs more effort ?
+3. Where should you allocate scare resources ?
 
-  
-  
+Component | Accuracy
+----------| ----------
+Overall System | 72 %  
+Text detection | 89 %
+Character Segmentation | 90 %
+Character Recognition | 100 %
+
+Ceiling analysis helps in identifying which parts need more improvement 
+
+Example: Ceiling analysis for image recognition 
+
+Camera Image --> pre-processing (remove background) --> Face detection (1. eyes segmentation 2. nose segmentation 3. mouth segmentation) --> Logistic Regression --> Label
+
+
+
   
   
   
